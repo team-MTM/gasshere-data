@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*大きな要素*/
+body{
+	max-width: 414px;
+	margin:0 auto;
+	background: url("img/bg.png");
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+
+a{
+	text-decoration: none;
+	color:#fff;
+}
+
+/*flex*/
+.display-flex{
+	display: flex;
+}
+
+.align-items-center{
+  align-items: center;
+}
+
+.justify-content-center{
+	justify-content:center;
+}

@@ -1,0 +1,113 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+
+
+
+/*ヘッダー*/
+header{
+	background: #414141;
+	text-align: center;
+	box-shadow: 2px 3px 6px #CBCBCB;
+}
+
+h1 img{
+	height:30px;
+	vertical-align: middle;
+	margin-top:0;
+}
+	
+
+/*測定中*/
+.cer-measurement{
+	margin-top:55px;
+}
+
+.car img{
+	height:30px;
+	padding-right: 5px;
+}
+
+.measurement{
+	font-size:1em;
+	color:#51A2E6;
+}
+
+/*丸ボタン*/
+.circle{
+	position: relative;
+	display: inline-block;
+	width: 225px;
+	height: 225px;
+
+	border: 2px solid #fff;
+	box-sizing: border-box;
+	border-radius: 50%;
+	box-shadow: 5px 5px 5px #CBCBCB;
+    background: -moz-linear-gradient(top, #51A2E6, #44B798);
+    background: -webkit-linear-gradient(top, #51A2E6, #44B798);
+    background: linear-gradient(to bottom, #51A2E6, #44B798);
+}
+
+.circle a{
+	font-size:1.87em;
+	font-weight:bold;
+}
+
+.circle span {
+  position: absolute;
+  display: inline-block;
+  left: 0px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width :80px;
+  text-align:center;
+}
+
+
+/*走行距離・代金*/
+.running-time{
+	color: #A5A5A5;
+	text-align: center;
+}
+
+.distance-price1{
+	font-size:0.87em;
+	color: #A5A5A5;
+	padding: 10px 0 0 0;
+	border-top:5px solid #51A2E6;
+}
+
+.distance-price2{
+	font-size:1.87em;
+	font-weight:bold;
+	color: #51A2E6;
+	padding:0 0 10px 0;
+	border-bottom:5px solid #51A2E6;
+}
+
+
+/*横長のボタン*/
+.long-botann{
+	text-align: center;
+	background: #45D894;
+	width:240px;
+	padding:12px;
+	border-radius: 50px;
+	box-shadow: 2px 3px 6px #CBCBCB;
+}
+
+/*nav*/
+nav a{
+	font-size: 1.12em;
+}
+
+
+
+
+
+
+
